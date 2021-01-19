@@ -1,7 +1,7 @@
 ### Hi, Gruß, Bonjour there...
 ### I`m Yuriy Kostyuk👋
 
-<img align="left" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="40%"/>
+<img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="60%"/>
 
 - 🔭 I’m currently working at Okta
 - 🌱 I’m currently learning Rust & Cryptography

@@ -1,4 +1,4 @@
-### Hi, Gruß, Bonjour there...
+### Hi, Gruß, Bonjour there!!!
 ### I`m Yuriy Kostyuk👋
 
 <img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="50%"/>

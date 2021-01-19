@@ -13,8 +13,6 @@
 - ⚡ Fun fact: I am Joker))
 
 [![Taipanbox's github stats](https://github-readme-stats.vercel.app/api?username=taipanbox&count_private=true&show_icons=true&theme=radical&include_all_commits=true)](https://github.com/taipanbox/my_score)
-##
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=taipanbox&layout=compact)](https://github.com/taipanbox/my_score)
 
 ### Connect with me:
 

@@ -16,5 +16,5 @@
 
 ### Connect with me:
 
-[<img src="https://img.icons8.com/color/48/000000/twitter.png" width="5%"/>](https://twitter.com/yukostyuk) [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="5%"/>](https://www.linkedin.com/in/yuriy-kostyuk-778900ab/) 
+[<img src="https://img.icons8.com/color/48/000000/twitter.png" width="5%"/>](https://twitter.com/yukostiuk) [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="5%"/>](https://www.linkedin.com/in/yurii-kostiuk-778900ab/) 
 

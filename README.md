@@ -1,5 +1,5 @@
 ### Hi, Gruß, Bonjour there!!!
-### I`m Yuriy Kostyuk👋
+### I`m Yurii Kostiuk👋
 
 <img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="40%"/>
 

@@ -3,7 +3,7 @@
 
 <img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="40%"/>
 
-- 🔭 I’m currently working at PETRONAS
+- 🔭 I’m currently working at IT-RAT
 - 🌱 I’m currently learning Rust & Cryptography
 - 👯 I’m looking for interesting projects
 - 🤔 I’m looking for help with blockchain

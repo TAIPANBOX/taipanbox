@@ -16,15 +16,15 @@ I build the services that close that gap, and I run them on real infrastructure 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="control-room-dark.svg">
-  <img alt="Animated control room: a Linux eBPF sensor flags a process nobody registered opening a connection to an LLM API, four metered agents run under budget and policy with one tripping its breaker, and every event is sealed into a hash-linked record." src="control-room-light.svg">
+  <img alt="Animated control room: a Linux eBPF sensor flags a process nobody registered opening a connection to an LLM API, then five metered agents where one is blocked for touching untrusted data, one trips its budget breaker, one is caught in a loop and one is denied by policy, and every one of those events is sealed into a hash-linked record." src="control-room-light.svg">
 </picture>
 
-<sub><b>An illustration, not a live feed.</b> The numbers are invented, the behaviour is not. The kernel band is Idryx's eBPF program on the <code>sys_enter_connect</code> tracepoint and its <code>unmanaged_egress</code> detector: it is Linux only, it reads no payloads, and it reports rather than blocks. The rest is TokenFuse, Wardryx and Trailryx.</sub>
+<sub><b>An illustration, not a live feed.</b> The numbers are invented, the behaviour is not. An agent here is stopped four different ways and only one of them is money: a risky action refused after it touched untrusted data, a detected loop, a policy decision, and the budget breaker. The kernel band is Idryx's eBPF program on the <code>sys_enter_connect</code> tracepoint, which I have run: Linux only, it reads no payloads, and it reports rather than blocks.</sub>
 
 ### The services
 
 <table>
-<tr><td nowrap><b>Money</b></td><td><a href="https://github.com/TAIPANBOX/tokenfuse"><b>TokenFuse</b></a> runtime spend control and the in-line kill switch &nbsp;·&nbsp; <a href="https://github.com/TAIPANBOX/costcrew"><b>CostCrew</b></a> a crew of agents takes the cloud bill apart, a person signs it off</td></tr>
+<tr><td nowrap><b>Money</b></td><td><a href="https://github.com/TAIPANBOX/tokenfuse"><b>TokenFuse</b></a> the in-line kill switch: budget, loop detection, and risky actions blocked after untrusted data &nbsp;·&nbsp; <a href="https://github.com/TAIPANBOX/costcrew"><b>CostCrew</b></a> a crew of agents takes the cloud bill apart, a person signs it off</td></tr>
 <tr><td nowrap><b>Policy</b></td><td><a href="https://github.com/TAIPANBOX/wardryx"><b>Wardryx</b></a> policy decisions with a human in the loop &nbsp;·&nbsp; <a href="https://github.com/TAIPANBOX/scopyx"><b>Scopyx</b></a> agents reach the web through a decision, not around one</td></tr>
 <tr><td nowrap><b>Identity</b></td><td><a href="https://github.com/TAIPANBOX/agent-passport"><b>agent-passport</b></a> one id, one delegation chain, one envelope &nbsp;·&nbsp; <a href="https://github.com/TAIPANBOX/vouchryx"><b>Vouchryx</b></a> a delegation an agent can prove and a person can end &nbsp;·&nbsp; <a href="https://github.com/TAIPANBOX/idryx"><b>Idryx</b></a> one graph for humans, keys and agents, and a Linux eBPF sensor for the ones nobody registered</td></tr>
 <tr><td nowrap><b>Memory</b></td><td><a href="https://github.com/TAIPANBOX/engram"><b>Engram</b></a> the SQLite of agent memory: embeddable, MCP-native, bitemporal</td></tr>
